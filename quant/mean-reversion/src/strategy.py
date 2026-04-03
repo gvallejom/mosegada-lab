@@ -3,9 +3,9 @@ import pandas as pd
 
 def apply_mean_reversion_strategy(
     data: pd.DataFrame,
-    window: int = 20,
-    entry_threshold: float = 2.0,
-    exit_threshold: float = 0.5
+    window: int = 10,
+    entry_threshold: float = 1.5,
+    exit_threshold: float = 0.8
 ) -> pd.DataFrame:
     """
     Apply a simple mean reversion strategy using rolling mean, rolling std,
