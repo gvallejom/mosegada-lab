@@ -162,5 +162,4 @@ this build. Most live in `aster_client.py` (endpoint paths, fee tier).
 ---
 
 ## License
-
-MIT
+License: All rights reserved since 21 Nov 2026 (earlier versions: MIT). See LICENSE.
